@@ -1,0 +1,208 @@
+body {
+  max-width: 1440px;
+  margin: 0 auto;
+  font-size: 20px;
+  background-color: rgb(255, 255, 255);
+}
+
+header .headerWrapper {
+  display: flex;
+  width: 100%;
+  height: 80px;
+  justify-content: space-evenly;
+}
+
+.headerWrapper div {
+  width: 150px;
+  height: 60px;
+  border-radius: 60px;
+  font-weight: bold;
+  background-color: rgb(255, 255, 255);
+}
+
+.headerWrapper div p {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+header .headerWrapper2 {
+  display: flex;
+  width: 100%;
+  height: 80px;
+  justify-content: space-evenly;
+}
+
+.headerWrapper2 div {
+  width: 150px;
+  height: 60px;
+  border-radius: 60px;
+  font-weight: bold;
+}
+
+.headerWrapper2 div p {
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.LastUpdateWrapper {
+  text-align: center;
+}
+
+.statusWrapper {
+  margin: 0 auto;
+  width: 70%;
+  height: 200px;
+  transition: all 0.25s ease;
+}
+
+.locationWrapper {
+  display: flex;
+  justify-content: space-around;
+}
+
+.location1 {
+  text-align: center;
+}
+
+.location2 {
+  text-align: center;
+}
+
+.locationWrapper span {
+  font-size: 36px;
+  font-weight: bolder;
+  color: brown;
+}
+
+.locationCardHolder {
+  display: flex;
+}
+
+.locationCardHolderDOWN {
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  margin-left: 13rem;
+}
+
+.locationCardHolderUP {
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  margin-left: 6rem;
+}
+
+.cardDown {
+  width: 250px;
+  height: auto;
+  border-radius: 30px;
+  background-color: orange;
+  margin: 2rem;
+  box-shadow: 5px 5px 8px rgb(112, 112, 112);
+}
+
+.cardDown h1,
+h5 {
+  margin-left: 1rem;
+  color: white;
+}
+
+.locationWrapper {
+  display: none;
+}
+
+div.觀塘 {
+  border: 2px solid #7ed957;
+  color: #7ed957;
+  box-shadow: 2px 2px 2px #7ed957;
+}
+
+div.觀塘:hover {
+  background-color: #7ed957;
+  color: white;
+}
+
+div.港島 {
+  border: 2px solid #004aad;
+  color: #004aad;
+  box-shadow: 2px 2px 2px #004aad;
+}
+
+div.港島:hover {
+  background-color: #004aad;
+  color: white;
+}
+
+div.荃灣 {
+  border: 2px solid #ff3131;
+  color: #ff3131;
+  box-shadow: 2px 2px 2px #ff3131;
+}
+
+div.荃灣:hover {
+  background-color: #ff3131;
+  color: white;
+}
+
+div.南港島 {
+  border: 2px solid #cbcd09;
+  color: #cbcd09;
+  box-shadow: 2px 2px 2px #cbcd09;
+}
+
+div.南港島:hover {
+  background-color: #cbcd09;
+  color: white;
+}
+
+div.東涌 {
+  border: 2px solid#f6943d;
+  color: #f6943d;
+  box-shadow: 2px 2px 2px #f6943d;
+}
+
+div.東涌:hover {
+  background-color: #f6943d;
+  color: white;
+}
+
+div.東鐵 {
+  border: 2px solid#5ce1e6;
+  color: #5ce1e6;
+  box-shadow: 2px 2px 2px #5ce1e6;
+}
+
+div.東鐵:hover {
+  background-color: #5ce1e6;
+  color: white;
+}
+div.屯馬線 {
+  border: 2px solid#8d6019;
+  color: #8d6019;
+  box-shadow: 2px 2px 2px #8d6019;
+}
+div.屯馬線:hover {
+  background-color: #8d6019;
+  color: white;
+}
+
+div.機場快線 {
+  border: 2px solid#3d9ea0;
+  color: #3d9ea0;
+  box-shadow: 2px 2px 2px #3d9ea0;
+}
+
+div.機場快線:hover {
+  background-color: #3d9ea0;
+  color: white;
+}
+div.將軍澳線 {
+  border: 2px solid#8d45ab;
+  color: #8d45ab;
+  box-shadow: 2px 2px 2px #8d45ab;
+}
+
+div.將軍澳線:hover {
+  background-color: #8d45ab;
+  color: #ffffff;
+}
