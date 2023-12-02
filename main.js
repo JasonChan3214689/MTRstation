@@ -310,7 +310,7 @@ function genCardUP(MTRdata, buttonSelect) {
           let cardContent = `
           <div class="cardDown">
             <h1 class="cardLocation">${stationName}</h1>
-            <h5 class="cardTime">開出時間: ${arrTime}</h5>
+            <h5 class="cardTime">開出時間: ${arrTime.split(" ")[1]}</h5>
             <h5 class="cardPlatform">開出月台:${arrPlatform}</h5>
           </div>
         `;
@@ -361,7 +361,7 @@ function genCardDOWN(MTRdata, buttonSelect) {
           let cardContent = `
           <div class="cardDown">
             <h1 class="cardLocation">${stationName}</h1>
-            <h5 class="cardTime">開出時間: ${arrTime}</h5>
+            <h5 class="cardTime">開出時間: ${arrTime.split(" ")[1]}</h5>
             <h5 class="cardPlatform">開出月台:${arrPlatform}</h5>
           </div>
         `;
